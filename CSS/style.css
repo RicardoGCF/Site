@@ -46,7 +46,7 @@
 .navbar-brand span {
     font-weight: 700;
     font-size: 1.5em;
-    margin-left: .5em;
+    margin-left: .4em;
 }
 
 #navbar-items .navbar-nav {
@@ -125,9 +125,15 @@
 }
 
 #mini-banners .card {
-    padding: 2em .3em;
+    padding: 3em .2em;
     border-radius: 0;
     margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 2em;
+}
+
+#mini-banners .card-text {
+    font-size: 1.3em;
 }
 
 #mini-banners i {
@@ -136,6 +142,7 @@
 
 #mini-banners .card-title {
     margin-bottom: 1.5em;
+    font-size: 1.6em;
 }
 
 #mini-banners btn {
@@ -234,7 +241,10 @@
         padding: 3.5em;
     }
 }
-
+/*Footer*/
+#footer{
+    background-color: rgb(71, 34, 34);
+}
 /*Footer top*/
 #footer {
     padding: 3em 2em;
@@ -249,13 +259,15 @@
 }
 
 #social-icons{
-    text-align: right;
+    text-align: left;
+    margin-top: 1em;
 }
 
 #social-icons i{
     margin-right: 1em;
     font-size: 1.5em;
     cursor:pointer;
+    text-align: center;
 }
 
 #social-icons i:hover{
@@ -265,6 +277,7 @@
 /*Footer details*/
 #footer-details{
     margin-bottom: 3em;
+    margin-left: 0.6em;
 }
 
 #news-container,
@@ -307,7 +320,7 @@
 }
 
 #footer-bottom i{
-    color: #e61e10;
+    color: #fff;
     margin-left: .3em;
 }
 
